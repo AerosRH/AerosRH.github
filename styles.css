@@ -16,7 +16,7 @@ body{
     width: 100%;
 }
 .header__mark{
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     align-items: center;
     display: flex;
     font-size: 30px;
@@ -32,13 +32,12 @@ body{
     margin-top: 8px;
 }
 .header__menu{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     align-items: center;
     display: flex;
     justify-content: center;
     margin-right: 10px;
     width: 240px;
-    
 }
 .header__menu-item{
     cursor: pointer;
@@ -46,7 +45,7 @@ body{
     list-style: none;
     line-height: 80px;
     text-align: center;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 .header__menu-item--options{
     background: white;
@@ -97,7 +96,7 @@ body{
     width: 100%;
 }
 .main__text-principal{
-    outline: 1px solid orange;
+    /* outline: 1px solid orange; */
     display: flex;
     font-size: 28px;
     height: 100px;
@@ -107,19 +106,18 @@ body{
 }
 
 footer{
-    outline: 1px solid rgb(134, 9, 9);
+    /* outline: 1px solid rgb(134, 9, 9); */
     align-items: flex-end;
     display: flex;
-    height: 50px;
-    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
 
 }
 .footer__ancla{
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     color: black;
     font-size: 14px;
-    height: 100px;
-    margin-right: 32px;
+    padding-left: 20px;
     text-decoration: none;
-    width: 100px;
 }
