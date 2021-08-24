@@ -107,6 +107,7 @@ body{
 
 footer{
     /* outline: 1px solid rgb(134, 9, 9); */
+    border-top: 1px solid rgb(192, 192, 192);
     align-items: flex-end;
     display: flex;
     height: 70px;
@@ -116,8 +117,11 @@ footer{
 }
 .footer__ancla{
     /* outline: 2px solid blue; */
+    align-items: center;
     color: black;
+    display: flex;
     font-size: 14px;
+    height: 70px;
     padding-left: 20px;
     text-decoration: none;
 }
